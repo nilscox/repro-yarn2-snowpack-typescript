@@ -8,4 +8,7 @@ module.exports = {
       plugins: [require('rollup-plugin-pnp-resolve')()],
     },
   },
+  plugins: [
+    '@snowpack/plugin-typescript',
+  ],
 };
